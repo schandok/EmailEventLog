@@ -15,7 +15,7 @@ import datetime
 
 # Configure params
 # In case using gmail for email, create a new App specific password to avoid entering your main password. https://support.google.com/mail/answer/1173270?hl=en
-TIMESTAMP_DIR = 'C:\\MC_Logger'
+TIMESTAMP_DIR = 'C:\\EmailEventLog'
 LOGGER = 'System'     # Get list of loggers by executing 'wevtutil el' on command line.
 SMTP_HOST = 'smtp.gmail.com'
 SMTP_PORT = 587
